@@ -68,7 +68,7 @@ header{
 .highlight{
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 100px;
     margin-top: 165px;
 }
 .highlight-left{
@@ -99,6 +99,7 @@ header{
 .gallery-container{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 .gallery{
@@ -132,7 +133,6 @@ header{
 
 /* Footer Section Starts from here  */
 .footer-container{
-    display: block;
     text-align: center;
     margin-top: 157px;
 }
@@ -147,3 +147,4 @@ header{
 .footer-copy p{
     font-size: 18px;
 }
+

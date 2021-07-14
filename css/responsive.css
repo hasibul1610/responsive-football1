@@ -1,0 +1,60 @@
+@media only screen and (max-width:688px) {
+    .header-container{
+        flex-direction: column;
+        margin-left: 16px;
+        
+        
+    }
+    .header-container-left{
+        width: 278px;
+        height: 138px;
+    }
+    .header-container-title{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .header-container-right img{
+        width: 329px;
+        height: 260px;
+        margin-left: 16px;
+        margin-top: 150px;
+    }
+    .player-container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .highlight{
+        flex-direction: column;
+    }
+    .highlight-left{
+        width: 330px;
+        height: 230px;
+        margin: 24px 15px;
+    }
+    .highlight-right img{
+        width:90%;
+        height: 250px;
+        margin-left:15px;
+        margin-top: 250px;
+    }
+    .gallery{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sponsor-container{
+        width: 100%;
+    }
+    .sponsors{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-container{
+        width: 100%;
+    }
+    .footer-image img{
+        width: 271px;
+        height: 63px;
+    }
+    
+    
+}
