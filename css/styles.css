@@ -1,0 +1,149 @@
+/* Font awesome style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common Styles  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Part  */
+header{
+    background-color: #2D25A0;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 86px;
+    padding-top: 150px;
+}
+.header-container-left{
+    width: 485px;
+}
+.header-container-title{
+    font-size: 64px;
+    color: white;
+    font-weight: bold;
+}
+.header-container-button{
+    color: white;
+    text-decoration: none;
+    padding: 10px 24px;
+    background: #E02C6D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header-container-right img{
+    width: 556px;
+    height: 438px;
+    margin-left: 102px;
+}
+
+/* Player Part  */
+.player-container{
+    display: flex;
+    justify-content: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 70px;
+}
+.player{
+    background-color: #fff;
+    height: 574px;
+    width: 330px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player h2{
+    font-size: 28px;
+}
+.player img{
+    width: 100%;
+}
+
+/* Highlight Section  */
+.highlight{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 165px;
+}
+.highlight-left{
+    width: 440px;
+    height: 370px;
+}
+.highlight-left h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+.highlight-button{
+    color: white;
+    text-decoration: none;
+    padding: 10px 24px;
+    background: #E02C6D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.highlight-right img{
+    width: 567px;
+    height: 427px;
+    
+    margin-left: 96px;
+}
+/* Gallery Section  */
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.gallery-container-main h1{
+    text-align: center;
+}
+.gallery img{
+    width: 300px;
+}
+
+/* Sponsor Section  */
+.sponsor-container{
+    text-align: center;
+    margin: 100px auto;
+    width: 1000px;
+}
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+
+}
+.sponsors a img{
+    width: 100px;
+    padding: 15px;
+}
+
+/* Footer Section Starts from here  */
+.footer-container{
+    display: block;
+    text-align: center;
+    margin-top: 157px;
+}
+.footer-image img{
+    width: 483px;
+    height: 110px;
+}
+.footer-icon a i{
+    font-size: 32px;
+    margin: 20px 14px;
+}
+.footer-copy p{
+    font-size: 18px;
+}
